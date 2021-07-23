@@ -2,6 +2,16 @@
  * @NOTE: Prepend a `~` to css file paths that are in your node_modules
  *        See https://github.com/webpack-contrib/sass-loader#imports
  */
+
+@import "~antd/dist/antd.css";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+td {
+  width: 500px;
+  inline-size: min-content;
+  word-break: break-all;
+}
+
 body {
   position: relative;
   color: white;
@@ -14,9 +24,7 @@ body {
   );
   font-family: sans-serif;
   overflow-y: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
 }
 
 button {
