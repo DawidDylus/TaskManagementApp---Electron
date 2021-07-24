@@ -6,17 +6,17 @@ export const GetTasks = () => {
         const data = [
             {
                 id: 1,
-                taskName: "shit",
-                task: "clean it upsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss sssssssssssssssssssssssssssssssssssssssssssssssssssss",
-                status: 'todo',
-                index: 1
+                name: "shit",
+                description: "clean it upsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss sssssssssssssssssssssssssssssssssssssssssssssssssssss",
+                status: 'todo',  
+                day: 'monday'             
             },
             {
                 id: 2,
-                taskName: "hey",
-                task: "wave",
-                status: 'todo',
-                index: 2
+                name: "hey",
+                description: "wave",
+                status: 'completed',
+                day: 'friday'
             }           
         ];
         

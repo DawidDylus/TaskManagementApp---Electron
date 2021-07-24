@@ -5,10 +5,11 @@ import { takeHeapSnapshot } from 'process';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
 import { Table } from 'react-bootstrap';
-import { fixControlledValue } from 'antd/lib/input/Input';
+
 export const Tasks = () => {
   useEffect(() => {
     setTasks(GetTasks());
+    console.log(tasks);
   }, []);
 
   const [tasks, setTasks] = useState([]);
